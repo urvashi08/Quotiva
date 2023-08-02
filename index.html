@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Quotiva</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body class="d-flex justify-content-center align-items-center min-vh-100 bg-light">
+    <div class="container mt-5" style="width: 605px;">
+      <div class="card p-4 shadow-lg rounded border-0">
+        <div class="card-body">
+          <h2 class="card-title text-center mb-5">Random Quote Generator</h2>
+          <div class="text-center">
+            <div class="d-flex align-items-start">
+              <i class="fas fa-quote-left me-2"></i>
+              <p class="mb-0" id="quote">Never give up because you never know if the next try is going to be the one that works. - Mary Kay Ash</p>
+              <i class="fas fa-quote-right ms-2 align-self-end"></i>
+            </div>    
+            <hr class="my-4">
+            <div class="d-flex justify-content-between">
+              <ul class="list-unstyled d-flex m-0 p-0">
+                <li></li><button type="button" class="btn btn-outline-primary rounded-pill" id="copy-button"><i class="fas fa-copy"></i></button></li>
+              </ul>
+              <button class="btn btn-primary ms-2 border-0 rounded-pill" id="generate-button">New Quote</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
